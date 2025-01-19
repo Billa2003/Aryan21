@@ -1572,7 +1572,7 @@ def menu():
         os.system('cd && cd Vpn;git pull;node Vpn.py')
     elif TUTUL in ['2','B','b']:
         os.system('cd && git clone https://github.com/Bittux303/Aryan4.git')
-        os.system('cd && cd Aryan;git pull;python Main.py')    
+        os.system('cd && cd Aryan4;git pull;python Main.py')    
     elif TUTUL in ['0']:
         os.system('rm -rf .token.txt')
         os.system('rm -rf .cookie.txt')
